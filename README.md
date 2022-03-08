@@ -16,7 +16,7 @@ Customised Odoo ce with Open HRMS and a Full accounting Kit available for instal
 
 # How to use the repo and odoo docker image
 
-Adjust the docker compose file and odoo.conf, as well as extract any third party apps to the addons [folder](/Odoo/Odoo-v15/addons/readme.md), to suit your project needs.
+Adjust the docker compose file and odoo.conf, as well as extract any third party apps to the addons [folder](/Odoo-v15/addons/readme.md), to suit your project needs.
 
 Navigate to the docker compose yaml file directory and run:
 
