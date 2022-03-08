@@ -34,15 +34,21 @@ By default Odoo uses /var/lib/odoo to store data, for this project the path has 
 
 ## Login to your respective container registry
 
-`docker login <registry url>`
+```
+docker login <registry url>
+```
 
 ## Change directory into the Dockerfile location
 
-`cd DockerBuild/15.0/`
+```
+cd DockerBuild/15.0/
+```
 
 ## Build the image from the Dockerfile
 
-`docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep .`
+```
+docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep .
+```
 
 ### where -t is to tag the image, default is latest or main depending on container registry.
 
@@ -50,15 +56,19 @@ By default Odoo uses /var/lib/odoo to store data, for this project the path has 
 
 ## Build the image with a different tag
 
-`docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:dev .`
-`docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:staging .`
-`docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:15.0 .`
+```
+docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:dev .
+
+docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:staging .
+
+docker build -t ghcr.io/phylogenyexplorerproject/odoo-pep:15.0 .
+```
 
 #### and so on
 
 ## Finally push your changes to the registry
 
-`docker push ghcr.io/phylogenyexplorerproject/odoo-pep`
+`docker push ghcr.io/phylogenyexplorerproject/odoo`
 fails with bad credential setup
 
 # How to scaffold a new app using docker
