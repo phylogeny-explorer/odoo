@@ -1,2 +1,0 @@
-# Odoo
-Odoo for PEP
