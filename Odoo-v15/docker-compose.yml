@@ -1,8 +1,8 @@
 version: '3.1'
 services:
   web:
-    container_name: customnameodoo
-    image: odoo.phylogenyexplorerproject:15
+    container_name: customnameodoo15
+    image: ghcr.io/phylogeny-explorer/odoo:15
     depends_on:
       - dbcustom
     ports:

@@ -1,5 +1,5 @@
 FROM debian:bullseye-slim
-MAINTAINER Odoo S.A. <info@odoo.com>
+LABEL odoo by clickonrefresh "clickonrefresh@gmail.com"
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 
